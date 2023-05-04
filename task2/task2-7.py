@@ -1,0 +1,5 @@
+string1 = (input('Введите строку 1:'))
+string2 = (input('Введите строку 2:'))
+border1 = min([string2.index(string1[0]), string2.index(string1[1]), string2.index(string1[2])])
+border2 = max([string2.index(string1[0]), string2.index(string1[1]), string2.index(string1[2])])
+print(string2[border1:border2+1])
