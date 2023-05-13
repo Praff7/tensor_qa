@@ -4,7 +4,11 @@
 # (1, 2, 3, 4, 5, 6, 7, 8, 9, 0)  => "(123) 456-7890"
 
 def create_phone_number(num_tuple):
-    # Здесь нужно написать код
+     """
+    Фунция преобразовывает кортеж в строку ввиде номера телефона
+    :param num_tuple: кортеж
+    :return: строка в виде номера телефона
+    """
     string = ''
     for j in range(0, len(num_tuple)):
         string = string + str(num_tuple[j])
