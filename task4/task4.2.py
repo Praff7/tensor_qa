@@ -6,7 +6,11 @@
 
 
 def flatten_and_sort(array):
-    # Здесь нужно написать код
+    """
+    Фунция преобразует двумерный массив в список отсортированный в порядке возрастания
+    :param array: двумерный массив
+    :return: итоговая отсортированная строко
+    """
     result_list = []
     for j in range(len(array)):
         for el in array[j]:
