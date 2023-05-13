@@ -14,7 +14,12 @@
 # [4] => 1 вышел, 4 остался последним т.е. выжившим - это наш ответ survivor.
 
 def josephus_task(num_people, kill_num):
-    # Здесь нужно написать код
+   """
+    Функция решает задачу Иосифа Флавия
+    :param num_people: количество человек в кругу
+    :param kill_num: порядок вывода человека
+    :return: последний оставшиийся в живых человек
+    """
     last = 0
     for j in range(1, num_people + 1):
         last = (last + kill_num) % j
