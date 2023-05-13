@@ -7,7 +7,11 @@
 # 4 --> 4
 
 def sum_digits(num):
-    # Здесь нужно написать код
+    """
+    Фунция считаем сумму цифр числа
+    :param num: заданное число
+    :return: сумма цифр числа
+    """
     our_sum = 0
     for digit in str(num):
         our_sum += int(digit)
